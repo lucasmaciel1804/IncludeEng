@@ -1,0 +1,174 @@
+/* Geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-image: url(/Destaque-Poster-de-Oppenheimer\ 2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.interface {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Cabeçalho */
+header {
+  padding: 50px 5%;
+}
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header a {
+  color: #adadad;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: rgb(255, 255, 255);
+  transform: scale(1.15);
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 120px;
+  font-size: 18px;
+}
+
+header .botao-contato button {
+  padding: 10px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffce09;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px #ffce09;
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+
+footer {
+  padding: 10px 8%;
+  box-shadow: 0 0 30px 10px #35353586;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+  padding: 20px 0;
+}
+
+.borda {
+  border-top: 2px solid #ffce09;
+}
+
+.btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ffce09;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 15px 5px;
+  transition: 0.2s;
+}
+
+footer .line-footer p {
+  color: #ffce09;
+}
+
+footer .line-footer a {
+  color: #ffffff;
+}
+
+/* Posts */
+
+section.blog {
+  padding: 50px 5%;
+}
+
+section.blog .flex {
+  gap: 60px;
+}
+
+h1.titulo {
+  color: #ffffff;
+  font-size: 34px;
+  text-align: center;
+  padding: 0 0 100px;
+}
+
+h1.titulo span {
+  color: #ffce09;
+}
+
+.blog .blog-box {
+  color: #ffffff;
+  padding: 50px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  margin-top: 40px;
+}
+
+.blog .blog-box:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+  box-shadow: 0 0 12px #646363;
+}
+
+.blog .blog-box i {
+  color: #ffce09;
+  font-size: 60px;
+  text-align: center;
+}
+
+.blog .blog-box h2 {
+  color: #ffffff;
+  font-size: 34px;
+  margin: 20px 0;
+}
+
+.blog .blog-box a {
+  color: black;
+  text-decoration: none;
+}
+
+.blog .blog-box button {
+  width: 140px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ffce09;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 15px 5px;
+  transition: 0.2s;
+}
